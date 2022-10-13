@@ -324,6 +324,7 @@ When $b$ is projected onto a line, its projection $p$ is the part of $b$ along t
 以上图为例：b为原始向量，a为目标线，p为投影向量，P为投影矩阵
 
 Projecting $b$ onto $\boldsymbol{a}$ with error $\boldsymbol{e}=\boldsymbol{b}-\widehat{x} \boldsymbol{a}$ $\boldsymbol{a} \cdot(\boldsymbol{b}-\widehat{\boldsymbol{x}} \boldsymbol{a})=0 \quad$ or $\quad \boldsymbol{a} \cdot \boldsymbol{b}-\widehat{\boldsymbol{x}} \boldsymbol{a} \cdot \boldsymbol{a}=0$
+
 $$
 \widehat{\boldsymbol{x}}=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\boldsymbol{a} \cdot \boldsymbol{a}}=\frac{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{b}}{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{a}}
 $$
