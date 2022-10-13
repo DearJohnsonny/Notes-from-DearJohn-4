@@ -95,4 +95,4 @@ $$
 \text { The transpose of } A^{\mathrm{T}} A \text { is } A^{\mathrm{T}}\left(A^{\mathrm{T}}\right)^{\mathrm{T}} \text { which is } A^{\mathrm{T}} A \text { again. }
 $$
 
-The matrix $ A A^T$ is also symmetric
+The matrix $A A^{\mathrm{T}}$ is also symmetric
