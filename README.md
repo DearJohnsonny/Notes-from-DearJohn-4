@@ -172,3 +172,19 @@ $$
 &\text { The pivot rows and columns contain } \boldsymbol{}
 \end{aligned}
 $$
+
+## The Complete Solution to Ax = b
+
+1 Complete solution to $A \boldsymbol{x}=\boldsymbol{b}: \boldsymbol{x}=$ (one particular solution $\left.\boldsymbol{x}_p\right)+\left(\right.$ any $\boldsymbol{x}_n$ in the nullspace).
+
+2 Elimination on $\left[\begin{array}{ll}A & \boldsymbol{b}\end{array}\right]$ leads to $\left[\begin{array}{ll}R & \boldsymbol{d}\end{array}\right]$. Then $A \boldsymbol{x}=\boldsymbol{b}$ is equivalent to $R \boldsymbol{x}=\boldsymbol{d}$.
+
+$3 A \boldsymbol{x}=\boldsymbol{b}$ and $R \boldsymbol{x}=\boldsymbol{d}$ are solvable only when all zero rows of $R$ have zeros in $\boldsymbol{d}$.
+
+4 When $R \boldsymbol{x}=\boldsymbol{d}$ is solvable, one very particular solution $\boldsymbol{x}_p$ has all free variables equal to zero.
+
+5 has full column rank $\boldsymbol{r}=\boldsymbol{n}$ when its nullspace $\boldsymbol{N}(A)=$ zero vector: no free variables.
+
+6 A has full row rank $\boldsymbol{r}=\boldsymbol{m}$ when its column space $\boldsymbol{C}(A)$ is $\mathbf{R}^m: A \boldsymbol{x}=\boldsymbol{b}$ is always solvable.
+
+7 The four cases are $r=m=n$ ( $A$ is invertible) and $r=m<n$ (every $A \boldsymbol{x}=\boldsymbol{b}$ is solvable) and $r=n<m(A \boldsymbol{x}=\boldsymbol{b}$ has 1 or 0 solutions) and $r<m, r<n$ ( 0 or $\infty$ solutions).
