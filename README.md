@@ -247,8 +247,8 @@ $$
 <img src="https://user-images.githubusercontent.com/111955215/195583662-ba35f396-18a1-40b4-a6b2-5fa30031b9d2.png" width="800">
 </div>
 
-## 列满秩与行满秩
-The rank r = n，则该矩阵A应该是瘦长型的(m ≥ n)，将A简化成为R将得到下式：
+### 列满秩与行满秩
+* The rank r = n，则该矩阵A应该是瘦长型的(m ≥ n)，将A简化成为R将得到下式：
 
 $$
 R=\left[\begin{array}{l}
@@ -265,3 +265,10 @@ Every matrix $A$ with full column $\operatorname{rank}(\boldsymbol{r}=\boldsymbo
 2. There are no free variables or special solutions.
 3. The nullspace $\boldsymbol{N}(A)$ contains only the zero vector $\boldsymbol{x}=\mathbf{0}$.
 4. If $A \boldsymbol{x}=b$ has a solution (it might not) then it has only one solution.
+
+* A matrix has full row rank if r = m，则该矩阵是矮胖型的(n ≥ m)
+要解方程则按下图：
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/195591903-ce4c2bbd-199b-4d1e-b571-7a92b1bd03e8.png" width="800">
+</div>
