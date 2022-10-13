@@ -311,3 +311,21 @@ The columns are certainly dependent if n > m, because Ax = 0 has a nonzero solut
 The row space of $A$ is $\boldsymbol{C}\left(A^{\mathrm{T}}\right)$. It is the column space of $A^{\mathrm{T}}$.This row space of A is a subspace of $\mathbf{R}^2$
 
 也可以记做R(A)
+
+## 投影projection
+
+When $b$ is projected onto a line, its projection $p$ is the part of $b$ along that line. If $b$ is projected onto a plane, $p$ is the part in that plane. The projection $p$ is $P b$.其中P为投影矩阵
+
+##$When $b$ is projected onto a line, its projection $p$ is the part of $b$ along that line. If $b$ is projected onto a plane, $p$ is the part in that plane. The projection $p$ is $P b$.
+
+### 投影到线上
+![image](https://user-images.githubusercontent.com/111955215/195606114-f9c3a016-7e75-475e-ae3e-fa107101f575.png)
+
+以上图为例：b为原始向量，a为目标线，p为投影向量，P为投影矩阵
+
+Projecting $b$ onto $\boldsymbol{a}$ with error $\boldsymbol{e}=\boldsymbol{b}-\widehat{x} \boldsymbol{a}$ $\boldsymbol{a} \cdot(\boldsymbol{b}-\widehat{\boldsymbol{x}} \boldsymbol{a})=0 \quad$ or $\quad \boldsymbol{a} \cdot \boldsymbol{b}-\widehat{\boldsymbol{x}} \boldsymbol{a} \cdot \boldsymbol{a}=0$
+$$
+\widehat{\boldsymbol{x}}=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\boldsymbol{a} \cdot \boldsymbol{a}}=\frac{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{b}}{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{a}}
+$$
+
+Projection $\boldsymbol{p}=\boldsymbol{a} \widehat{\boldsymbol{x}}=\boldsymbol{a} \frac{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{b}}{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{a}}=P \boldsymbol{b}$ when the matrix is $\quad P=\frac{\boldsymbol{a a}^{\mathrm{T}}}{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{a}}$.
