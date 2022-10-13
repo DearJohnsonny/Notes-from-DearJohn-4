@@ -246,3 +246,22 @@ $$
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/195583662-ba35f396-18a1-40b4-a6b2-5fa30031b9d2.png" width="800">
 </div>
+
+## 列满秩与行满秩
+The rank r = n，则该矩阵A应该是瘦长型的(m ≥ n)，将A简化成为R将得到下式：
+
+$$
+R=\left[\begin{array}{l}
+I \\
+0
+\end{array}\right]=\left[\begin{array}{l}
+n \text { by } n \text { identity matrix } \\
+m-n \text { rows of zeros }
+\end{array}\right]
+$$
+
+Every matrix $A$ with full column $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{n})$ has all these properties:
+1. All columns of $A$ are pivot columns.
+2. There are no free variables or special solutions.
+3. The nullspace $\boldsymbol{N}(A)$ contains only the zero vector $\boldsymbol{x}=\mathbf{0}$.
+4. If $A \boldsymbol{x}=b$ has a solution (it might not) then it has only one solution.
