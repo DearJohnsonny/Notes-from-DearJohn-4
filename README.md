@@ -241,5 +241,8 @@ $$
 \end{array}\right]
 $$
 
-Complete solution one $x_p$ many $x_n$
+再如下例：
 
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/195583662-ba35f396-18a1-40b4-a6b2-5fa30031b9d2.png" width="1500">
+</div>
