@@ -115,7 +115,9 @@ The symmetric factorization of a symmetric matrix is $S=L D L^{\mathrm{T}}$.
 # Spaces of Vectors 
 
 M The vector space of all real 2 by 2 matrices.
+
 F The vector space of all real functions $f(x)$.
+
 $\mathrm{Z}$ The vector space that consists only of a zero vector.
 
 ## 关于列空间column space
