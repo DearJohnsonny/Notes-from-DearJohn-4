@@ -76,7 +76,7 @@ $$
 \end{array}\right]
 $$
 
-## Transposes and Permutations
+## Transposes and Permutations转置与排列
 1 The transposes of $A \boldsymbol{x}$ and $A B$ and $A^{-1}$ are $\boldsymbol{x}^{\mathrm{T}} A^{\mathrm{T}}$ and $B^{\mathrm{T}} A^{\mathrm{T}}$ and $\left(A^{\mathrm{T}}\right)^{-1}$.
 
 2 The dot product (inner product) is $\boldsymbol{x} \cdot \boldsymbol{y}=\boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}$. This is $(1 \times n)(n \times 1)=(1 \times 1)$. The outer product is $\boldsymbol{x} \boldsymbol{y}^{\mathbf{T}}=$ column times row $=(n \times 1)(1 \times n)=n \times n$ matrix .
@@ -90,3 +90,9 @@ $$
 6 A permutation matrix $\boldsymbol{P}$ has the same rows as $I$ (in any order). There are $\boldsymbol{n}$ ! different orders.
 
 7 Then $P x$ puts the components $x_1, x_2, \ldots, x_n$ in that new order. And $P^{\mathrm{T}}$ equals $P^{-1}$.
+
+$$
+\text { The transpose of } A^{\mathrm{T}} A \text { is } A^{\mathrm{T}}\left(A^{\mathrm{T}}\right)^{\mathrm{T}} \text { which is } A^{\mathrm{T}} A \text { again. }
+$$
+
+The matrix $ A A^T$ is also symmetric
