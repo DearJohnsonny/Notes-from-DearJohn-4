@@ -21,7 +21,7 @@ $\boldsymbol{v} \cdot \boldsymbol{v}$ 相当于 $V^T V$
 
 ## Inverse Matrices
 
-1 If the square matrix $A$ has an inverse, then both $A^{-1} A=I$ and $A A^{-1}=I$.
+1 If the square matrix $A$ has an inverse, then both $A^{-1} A=I$ and $A A^{-1}=I$
 
 2 The algorithm to test invertibility is elimination: $A$ must have $n$ (nonzero) pivots.
 
@@ -187,4 +187,4 @@ $3 A \boldsymbol{x}=\boldsymbol{b}$ and $R \boldsymbol{x}=\boldsymbol{d}$ are so
 
 6 A has full row rank $\boldsymbol{r}=\boldsymbol{m}$ when its column space $\boldsymbol{C}(A)$ is $\mathbf{R}^m: A \boldsymbol{x}=\boldsymbol{b}$ is always solvable.
 
-7 The four cases are $r=m=n$ ( $A$ is invertible) and $r=m<n$ (every $A \boldsymbol{x}=\boldsymbol{b}$ is solvable) and $r=n<m(A \boldsymbol{x}=\boldsymbol{b}$ has 1 or 0 solutions) and $r<m, r<n$ ( 0 or $\infty$ solutions).
+7 The four cases are $r=m=n$ ( $A$ is invertible) and $r=m < n$ (every $A \boldsymbol{x}=\boldsymbol{b}$ is solvable) and $r=n < m(A \boldsymbol{x}=\boldsymbol{b}$ has 1 or 0 solutions) and $r < m, r < n$ ( 0 or $\infty$ solutions).
