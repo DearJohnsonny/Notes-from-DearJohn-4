@@ -49,6 +49,12 @@ $$
 \left(E_{32} E_{31} E_{21}\right) A=U \text { becomes } A=\left(E_{21}^{-1} E_{31}^{-1} E_{32}^{-1}\right) U \text { which is } A=L U \text {. }
 $$
 
+**Better balance from LDU**：A = L U is "unsymmetric" because U has the pivots on its diagonal where L has l's. This is easy to change. Divide U by a diagonal matrix D that contains the pivots. That leaves a new triangular matrix with l's on the diagonal(对角线): 
+
+$$
+\text { The triangular factorization can be written } A=L U \text { or } A=L D U \text {. }
+$$
+
 ## Transposes and Permutations
 1 The transposes of $A \boldsymbol{x}$ and $A B$ and $A^{-1}$ are $\boldsymbol{x}^{\mathrm{T}} A^{\mathrm{T}}$ and $B^{\mathrm{T}} A^{\mathrm{T}}$ and $\left(A^{\mathrm{T}}\right)^{-1}$.
 
