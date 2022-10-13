@@ -267,6 +267,12 @@ Every matrix $A$ with full column $\operatorname{rank}(\boldsymbol{r}=\boldsymbo
 4. If $A \boldsymbol{x}=b$ has a solution (it might not) then it has only one solution.
 
 * A matrix has full row rank if r = m，则该矩阵是矮胖型的(n ≥ m)
+Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m})$ has all these properties:
+1. All rows have pivots, and $R$ has no zero rows.
+2. $A \boldsymbol{x}=\boldsymbol{b}$ has a solution for every right side $b$.
+3. The column space is the whole space $\mathbf{R}^m$.
+4. There are $n-r=n-m$ special solutions in the nullspace of $A$.
+
 要解方程则按下图：
 
 <div align=center>
