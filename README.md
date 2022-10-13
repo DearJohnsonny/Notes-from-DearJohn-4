@@ -361,7 +361,7 @@ $$
 \boldsymbol{p}=A \widehat{\boldsymbol{x}}=A\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} \boldsymbol{b} .
 $$
 
-The next formula picks out the projection matrix that is multiplying $b$ in (6):
+The next formula picks out the projection matrix that is multiplying $b$ in:
 Find $\boldsymbol{P}(m \times m)$
 
 $$
