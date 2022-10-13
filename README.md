@@ -118,6 +118,7 @@ M The vector space of all real 2 by 2 matrices.
 F The vector space of all real functions $f(x)$.
 $\mathrm{Z}$ The vector space that consists only of a zero vector.
 
+## 关于列空间column space
 **The column space** consists of all linear combinations of the columns. The combinations are all possible vectors $A x$. They fill the column space $C(A)$.
 
 The system $A x=b$ is solvable if and only if $b$ is in the column space of $A$.
@@ -132,3 +133,16 @@ $$
 \mathbf{S S}=\text { all } c_1 \boldsymbol{v}_1+\cdots+c_N \boldsymbol{v}_N=\text { the subspace of } \mathbf{V} \text { "spanned" by } \mathbf{S}
 \end{gathered}
 $$
+
+## 关于零空间The Nullspace of A: Solving Ax = 0 and Rx = 0
+1 The nullspace $\boldsymbol{N}(A)$ in $\mathbf{R}^n$ contains all solutions $\boldsymbol{x}$ to $A \boldsymbol{x}=\mathbf{0}$. This includes $\boldsymbol{x}=\mathbf{0}$.
+
+2 Elimination (from $A$ to $U$ to $R$ ) does not change the nullspace: $\boldsymbol{N}(A)=\boldsymbol{N}(U)=\boldsymbol{N}(R)$.
+
+3 The reduced row echelon form $R=\operatorname{rref}(A)$ has all pivots $=1$, with zeros above and below.
+
+4 If column $j$ of $R$ is free (no pivot), there is a "special solution" to $A \boldsymbol{x}=\mathbf{0}$ with $x_j=1$.
+
+5 Number of pivots $=$ number of nonzero rows in $R=\operatorname{rank} \boldsymbol{r}$. There are $n-r$ free columns.
+
+6 Every matrix with $m<n$ has nonzero solutions to $A \boldsymbol{x}=\mathbf{0}$ in its nullspace.
