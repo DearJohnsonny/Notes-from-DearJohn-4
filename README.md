@@ -146,3 +146,19 @@ $$
 5 Number of pivots $=$ number of nonzero rows in $R=\operatorname{rank} \boldsymbol{r}$. There are $n-r$ free columns.
 
 6 Every matrix with $m < n$ has nonzero solutions to $A \boldsymbol{x}=\mathbf{0}$ in its nullspace.
+
+The rank of $A$ is the number of pivots. This number is $r$ 下图矩阵的rank为3
+
+$$
+\boldsymbol{R}=\left[\begin{array}{lllllll}
+\mathbf{1} & \mathbf{0} & x & x & x & \mathbf{0} & x \\
+0 & 1 & x & x & x & 0 & x \\
+\mathbf{0} & \mathbf{0} & 0 & 0 & 0 & \mathbf{1} & x \\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{array}\right] \quad \begin{aligned}
+&\text { Three pivot variables } x_1, x_2, x_6 \\
+&\text { Four free variables } x_3, x_4, x_5, x_7 \\
+&\text { Four special solutions } s \text { in } N(\boldsymbol{R}) \\
+&\text { The pivot rows and columns contain } \boldsymbol{}
+\end{aligned}
+$$
