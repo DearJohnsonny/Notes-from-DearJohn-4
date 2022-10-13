@@ -120,6 +120,14 @@ F The vector space of all real functions $f(x)$.
 
 $\mathrm{Z}$ The vector space that consists only of a zero vector.
 
+如何在向量空间中选择基底：
+
+The column space of $A$-choose the pivot columns of $A$ as a basis.
+
+The row space of $A$-choose the nonzero rows of $R$ as a basis.
+
+The nullspace of $A-$ choose the special solutions to $R \boldsymbol{x}=\mathbf{0}$ (and $A \boldsymbol{x}=\mathbf{0}$ ).
+
 ## 关于列空间column space
 **The column space** consists of all linear combinations of the columns. The combinations are all possible vectors $A x$. They fill the column space $C(A)$.
 
