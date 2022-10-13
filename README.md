@@ -55,6 +55,27 @@ $$
 \text { The triangular factorization can be written } A=L U \text { or } A=L D U \text {. }
 $$
 
+如下图的例子：
+
+$$
+\left[\begin{array}{ll}
+1 & 0 \\
+3 & 1
+\end{array}\right]\left[\begin{array}{ll}
+2 & 8 \\
+0 & 5
+\end{array}\right] \quad \text { splits further into } \quad\left[\begin{array}{ll}
+1 & 0 \\
+3 & 1
+\end{array}\right]\left[\begin{array}{ll}
+2 & \\
+& 5
+\end{array}\right]\left[\begin{array}{ll}
+1 & 4 \\
+0 & 1
+\end{array}\right]
+$$
+
 ## Transposes and Permutations
 1 The transposes of $A \boldsymbol{x}$ and $A B$ and $A^{-1}$ are $\boldsymbol{x}^{\mathrm{T}} A^{\mathrm{T}}$ and $B^{\mathrm{T}} A^{\mathrm{T}}$ and $\left(A^{\mathrm{T}}\right)^{-1}$.
 
