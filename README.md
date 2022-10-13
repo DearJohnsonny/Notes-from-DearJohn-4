@@ -113,3 +113,22 @@ If $S=S^{\mathrm{T}}$ is factored into $L D U$ with no row exchanges, then $U$ i
 The symmetric factorization of a symmetric matrix is $S=L D L^{\mathrm{T}}$.
 
 # Spaces of Vectors 
+
+M The vector space of all real 2 by 2 matrices.
+F The vector space of all real functions $f(x)$.
+$\mathrm{Z}$ The vector space that consists only of a zero vector.
+
+**The column space** consists of all linear combinations of the columns. The combinations are all possible vectors $A x$. They fill the column space $C(A)$.
+
+The system $A x=b$ is solvable if and only if $b$ is in the column space of $A$.
+
+列空间是一种用向量空间中的向量来张成子空间的方法，但可以将其推广：
+**Important** Instead of columns in $\mathbf{R}^m$, we could start with any set $\mathbf{S}$ of vectors in a vector space $\mathbf{V}$. To get a subspace $\mathbf{S S}$ of $\mathbf{V}$, we take all combinations of the vectors in that set:
+
+$$
+\begin{gathered}
+\mathbf{S}=\text { set of vectors in } \mathbf{V} \text { (probably not a subspace) } \\
+\mathbf{S S}=\text { all combinations of vectors in } \mathbf{S} \text { (definitely a subspace) } \\
+\mathbf{S S}=\text { all } c_1 \boldsymbol{v}_1+\cdots+c_N \boldsymbol{v}_N=\text { the subspace of } \mathbf{V} \text { "spanned" by } \mathbf{S}
+\end{gathered}
+$$
