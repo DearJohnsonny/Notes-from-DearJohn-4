@@ -287,7 +287,7 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 
 2 Independent vectors: The only zero combination $c_1 \boldsymbol{v}_1+\cdots+c_k \boldsymbol{v}_k=0$ has all $c$ 's $=0$.
 
-3 A matrix with $m<n$ has dependent columns : At least $n-m$ free variables/ special solutions.
+3 A matrix with $m < n$ has dependent columns : At least $n-m$ free variables/ special solutions.
 
 4 The vectors $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$ span the space $\boldsymbol{S}$ if $\boldsymbol{S}=$ all combinations of the $\boldsymbol{v}$ 's.
 
@@ -296,3 +296,5 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 6 The dimension of a space $S$ is the number of vectors in every basis for $S$.
 
 7 If $A$ is 4 by 4 and invertible, its columns are a basis for $\mathbf{R}^4$. The dimension of $\mathbf{R}^4$ is 4 .
+
+关于线性无关：当 $A \boldsymbol{x}=\mathbf{0}$ 的解也就是 $x_1 \boldsymbol{v}_1+x_2 \boldsymbol{v}_2+\cdots+x_n \boldsymbol{v}_n=\mathbf{0}$ 的解只有 $\boldsymbol{x}=0$时，可以确定A的列向量是线性无关的 
