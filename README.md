@@ -330,3 +330,37 @@ $$
 $$
 
 Projection $\boldsymbol{p}=\boldsymbol{a} \widehat{\boldsymbol{x}}=\boldsymbol{a} \frac{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{b}}{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{a}}=P \boldsymbol{b}$ when the matrix is $\quad P=\frac{\boldsymbol{a a}^{\mathrm{T}}}{\boldsymbol{a}^{\mathrm{T}} \boldsymbol{a}}$.
+
+### 投影到面上
+
+$$
+\begin{array}{cc}
+\boldsymbol{a}_1^{\mathrm{T}}(\boldsymbol{b}-A \widehat{\boldsymbol{x}})=0 \\
+\vdots \\
+\boldsymbol{a}_n^{\mathrm{T}}(\boldsymbol{b}-A \widehat{\boldsymbol{x}})=0
+\end{array} \quad \text { or } \quad\left[\begin{array}{c}
+-\boldsymbol{a}_1^{\mathrm{T}}- \\
+\vdots \\
+-\boldsymbol{a}_n^{\mathrm{T}}-
+\end{array}\right]\left[\begin{array}{l}
+\boldsymbol{b}-A \widehat{\boldsymbol{x}}
+\end{array}\right]=\left[\begin{array}{l}
+\mathbf{0}
+\end{array}\right]
+$$
+
+$$
+\text { The matrix with those rows } \boldsymbol{a}_i^{\mathrm{T}} \text { is } A^{\mathrm{T}} \text {. The } n \text { equations are exactly } A^{\mathrm{T}}(\boldsymbol{b}-A \widehat{\boldsymbol{x}})=\mathbf{0} \text {. }
+$$
+
+The combination $\boldsymbol{p}=\widehat{x}_1 \boldsymbol{a}_1+\cdots+\widehat{x}_n \boldsymbol{a}_n=A \widehat{\boldsymbol{x}}$ that is closest to $\boldsymbol{b}$ comes from $\widehat{\boldsymbol{x}}$ : Find $\widehat{x}(n \times 1) \quad A^{\mathrm{T}}(\boldsymbol{b}-A \widehat{\boldsymbol{x}})=\mathbf{0} \quad$ or $\quad A^{\mathrm{T}} A \widehat{\boldsymbol{x}}=A^{\mathrm{T}} \boldsymbol{b}$
+This symmetric matrix $A^{\mathrm{T}} A$ is $n$ by $n$. It is invertible if the $\boldsymbol{a}$ 's are independent. The solution is $\widehat{\boldsymbol{x}}=\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} \boldsymbol{b}$. The projection of $\boldsymbol{b}$ onto the subspace is $\boldsymbol{p}$ :
+Find $\boldsymbol{p}(m \times 1)$
+$$
+\boldsymbol{p}=A \widehat{\boldsymbol{x}}=A\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} \boldsymbol{b} .
+$$
+The next formula picks out the projection matrix that is multiplying $b$ in (6):
+Find $\boldsymbol{P}(m \times m)$
+$$
+P=A\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} .
+$$
