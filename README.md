@@ -280,3 +280,19 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/195591903-ce4c2bbd-199b-4d1e-b571-7a92b1bd03e8.png" width="800">
 </div>
+
+## 线性无关、基与维数
+
+1 Independent columns of $A$ : The only solution to $A \boldsymbol{x}=\mathbf{0}$ is $\boldsymbol{x}=\mathbf{0}$. The nullspace is $\boldsymbol{Z}$.
+
+2 Independent vectors: The only zero combination $c_1 \boldsymbol{v}_1+\cdots+c_k \boldsymbol{v}_k=0$ has all $c$ 's $=0$.
+
+3 A matrix with $m<n$ has dependent columns : At least $n-m$ free variables/ special solutions.
+
+4 The vectors $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$ span the space $\boldsymbol{S}$ if $\boldsymbol{S}=$ all combinations of the $\boldsymbol{v}$ 's.
+
+5 The vectors $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$ are a basis for $\boldsymbol{S}$ if they are independent and they span $\boldsymbol{S}$.
+
+6 The dimension of a space $S$ is the number of vectors in every basis for $S$.
+
+7 If $A$ is 4 by 4 and invertible, its columns are a basis for $\mathbf{R}^4$. The dimension of $\mathbf{R}^4$ is 4 .
