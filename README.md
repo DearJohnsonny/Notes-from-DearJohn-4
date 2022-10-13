@@ -145,4 +145,4 @@ $$
 
 5 Number of pivots $=$ number of nonzero rows in $R=\operatorname{rank} \boldsymbol{r}$. There are $n-r$ free columns.
 
-6 Every matrix with $m<n$ has nonzero solutions to $A \boldsymbol{x}=\mathbf{0}$ in its nullspace.
+6 Every matrix with $m < n$ has nonzero solutions to $A \boldsymbol{x}=\mathbf{0}$ in its nullspace.
