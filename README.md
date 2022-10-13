@@ -282,6 +282,11 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 </div>
 
 ## 线性无关、基与维数
+1. Independent vectors(no extra vectors) 
+2. Spanning a space(enough vectors to produce the rest) 
+3. Basis for a space(not too many or too few) 少了不够，多了不独立
+4. Dimension of a space(the number of vectors in a basis) 
+
 
 1 Independent columns of $A$ : The only solution to $A \boldsymbol{x}=\mathbf{0}$ is $\boldsymbol{x}=\mathbf{0}$. The nullspace is $\boldsymbol{Z}$.
 
