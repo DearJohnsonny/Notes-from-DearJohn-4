@@ -8,6 +8,8 @@
 <img src="https://user-images.githubusercontent.com/111955215/195361749-01b1343d-0dc6-497b-bbc1-1b0ae149ca5e.png" width="900">
 </div>
 
+# Introduction to vectors
+
 ## Lengths and Dot Products
 The length $\|v\|$ of a vector v is the square root of $\boldsymbol{v} \cdot \boldsymbol{v}$ 
 
