@@ -281,6 +281,7 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 <img src="https://user-images.githubusercontent.com/111955215/195591903-ce4c2bbd-199b-4d1e-b571-7a92b1bd03e8.png" width="800">
 </div>
 
+# 正交性 Orthogonality 
 ## 线性无关、基与维数
 1. Independent vectors(no extra vectors) 
 2. Spanning a space(enough vectors to produce the rest) 
@@ -308,3 +309,5 @@ The columns are certainly dependent if n > m, because Ax = 0 has a nonzero solut
 
 ### 行空间
 The row space of $A$ is $\boldsymbol{C}\left(A^{\mathrm{T}}\right)$. It is the column space of $A^{\mathrm{T}}$.This row space of A is a subspace of $\mathbf{R}^2$
+
+也可以记做R(A)
