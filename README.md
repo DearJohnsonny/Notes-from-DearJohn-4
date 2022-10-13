@@ -305,3 +305,6 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 关于线性无关：当 $A \boldsymbol{x}=\mathbf{0}$ 的解也就是 $x_1 \boldsymbol{v}_1+x_2 \boldsymbol{v}_2+\cdots+x_n \boldsymbol{v}_n=\mathbf{0}$ 的解只有 $\boldsymbol{x}=0$时，可以确定A的列向量是线性无关的 
 
 The columns are certainly dependent if n > m, because Ax = 0 has a nonzero solution（矮胖型的零空间必定不止包含原点；未知数多方程少，肯定可以解出来）
+
+### 行空间
+The row space of $A$ is $\boldsymbol{C}\left(A^{\mathrm{T}}\right)$. It is the column space of $A^{\mathrm{T}}$.This row space of A is a subspace of $\mathbf{R}^2$
