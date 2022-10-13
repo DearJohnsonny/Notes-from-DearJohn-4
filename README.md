@@ -95,4 +95,21 @@ $$
 \text { The transpose of } A^{\mathrm{T}} A \text { is } A^{\mathrm{T}}\left(A^{\mathrm{T}}\right)^{\mathrm{T}} \text { which is } A^{\mathrm{T}} A \text { again. }
 $$
 
-The matrix $A A^{\mathrm{T}}$ is also symmetric，for instance: $A A^{\mathrm{T}}=\left[\begin{array}{rr}2 & -1 \\ -1 & 2\end{array}\right]$ and $A^{\mathrm{T}} A=\left[\begin{array}{rrr}1 & -1 & 0 \\ -1 & 2 & -1 \\ 0 & -1 & 1\end{array}\right]$ are both symmtric matrics
+The matrix $A A^{\mathrm{T}}$ is also symmetric，for instance: 
+
+$$
+A A^{\mathrm{T}}=\left[\begin{array}{rr}
+2 & -1 \\
+-1 & 2
+\end{array}\right] \text { and } A^{\mathrm{T}} A=\left[\begin{array}{rrr}
+1 & -1 & 0 \\
+-1 & 2 & -1 \\
+0 & -1 & 1
+\end{array}\right]
+$$
+
+If $S=S^{\mathrm{T}}$ is factored into $L D U$ with no row exchanges, then $U$ is exactly $L^{\mathrm{T}}$.
+
+The symmetric factorization of a symmetric matrix is $S=L D L^{\mathrm{T}}$.
+
+# Spaces of Vectors 
