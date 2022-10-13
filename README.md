@@ -179,7 +179,7 @@ $$
 
 2 Elimination on $\left[\begin{array}{ll}A & \boldsymbol{b}\end{array}\right]$ leads to $\left[\begin{array}{ll}R & \boldsymbol{d}\end{array}\right]$. Then $A \boldsymbol{x}=\boldsymbol{b}$ is equivalent to $R \boldsymbol{x}=\boldsymbol{d}$.
 
-$3 A \boldsymbol{x}=\boldsymbol{b}$ and $R \boldsymbol{x}=\boldsymbol{d}$ are solvable only when all zero rows of $R$ have zeros in $\boldsymbol{d}$.
+3 A \boldsymbol{x}=\boldsymbol{b}$ and $R \boldsymbol{x}=\boldsymbol{d}$ are solvable only when all zero rows of $R$ have zeros in $\boldsymbol{d}$.
 
 4 When $R \boldsymbol{x}=\boldsymbol{d}$ is solvable, one very particular solution $\boldsymbol{x}_p$ has all free variables equal to zero.
 
@@ -188,6 +188,8 @@ $3 A \boldsymbol{x}=\boldsymbol{b}$ and $R \boldsymbol{x}=\boldsymbol{d}$ are so
 6 A has full row rank $\boldsymbol{r}=\boldsymbol{m}$ when its column space $\boldsymbol{C}(A)$ is $\mathbf{R}^m: A \boldsymbol{x}=\boldsymbol{b}$ is always solvable.
 
 7 The four cases are $r=m=n$ ( $A$ is invertible) and $r=m < n$ (every $A \boldsymbol{x}=\boldsymbol{b}$ is solvable) and $r=n < m(A \boldsymbol{x}=\boldsymbol{b}$ has 1 or 0 solutions) and $r < m, r < n$ ( 0 or $\infty$ solutions).
+
+8 $A \boldsymbol{x}=\boldsymbol{b}$ is solvable if and only if the last $m-r$ equations reduce to $0=0$
 
 要解Ax = b这个方程，需要一个AX = b方程的特解，还需要一个AX = 0的方程的通解：
 
