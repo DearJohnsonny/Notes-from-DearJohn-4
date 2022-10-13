@@ -188,3 +188,58 @@ $3 A \boldsymbol{x}=\boldsymbol{b}$ and $R \boldsymbol{x}=\boldsymbol{d}$ are so
 6 A has full row rank $\boldsymbol{r}=\boldsymbol{m}$ when its column space $\boldsymbol{C}(A)$ is $\mathbf{R}^m: A \boldsymbol{x}=\boldsymbol{b}$ is always solvable.
 
 7 The four cases are $r=m=n$ ( $A$ is invertible) and $r=m < n$ (every $A \boldsymbol{x}=\boldsymbol{b}$ is solvable) and $r=n < m(A \boldsymbol{x}=\boldsymbol{b}$ has 1 or 0 solutions) and $r < m, r < n$ ( 0 or $\infty$ solutions).
+
+要解Ax = b这个方程，需要一个AX = b方程的特解，还需要一个AX = 0的方程的通解：
+
+$$
+\begin{array}{lll}
+x_{\text {particular }} & \text { The particular solution solves } & A x_p=b \\
+x_{\text {nullspace }} & \text { The } n-r \text { special solutions solve } & A x_n=0 .
+\end{array}
+$$
+
+比如下面这个例子：
+
+$$
+R x_p=\left[\begin{array}{llll}
+1 & 3 & \mathbf{0} & 2 \\
+\mathbf{0} & 0 & \mathbf{1} & 4 \\
+0 & 0 & 0 & 0
+\end{array}\right]\left[\begin{array}{l}
+\mathbf{1} \\
+0 \\
+\mathbf{6} \\
+0
+\end{array}\right]=\left[\begin{array}{ll}
+\mathbf{1} \\
+\mathbf{6} \\
+0
+\end{array}\right] \quad \begin{aligned}
+&\text { Pivot variables } \mathbf{1}, \mathbf{6} \\
+&\text { Solution } x_p=(\mathbf{1}, \mathbf{0}, \mathbf{6}, \mathbf{0})
+\end{aligned}
+$$
+
+解特解时，将自由变量设定为0，则其中一个特解肯定是[1,0,6,0]^T，AX = 0的通解分别令自由变量为0和1，解出来之后再乘上相应的Xi即可：
+
+$$
+\boldsymbol{x}=x_p+\boldsymbol{x}_n=\left[\begin{array}{l}
+1 \\
+0 \\
+6 \\
+0
+\end{array}\right]+x_2\left[\begin{array}{r}
+-3 \\
+1 \\
+0 \\
+0
+\end{array}\right]+x_4\left[\begin{array}{r}
+-2 \\
+0 \\
+-4 \\
+1
+\end{array}\right]
+$$
+
+Complete solution one $x_p$ many $x_n$
+
