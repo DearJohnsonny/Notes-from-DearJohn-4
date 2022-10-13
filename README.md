@@ -356,11 +356,14 @@ $$
 The combination $\boldsymbol{p}=\widehat{x}_1 \boldsymbol{a}_1+\cdots+\widehat{x}_n \boldsymbol{a}_n=A \widehat{\boldsymbol{x}}$ that is closest to $\boldsymbol{b}$ comes from $\widehat{\boldsymbol{x}}$ : Find $\widehat{x}(n \times 1) \quad A^{\mathrm{T}}(\boldsymbol{b}-A \widehat{\boldsymbol{x}})=\mathbf{0} \quad$ or $\quad A^{\mathrm{T}} A \widehat{\boldsymbol{x}}=A^{\mathrm{T}} \boldsymbol{b}$
 This symmetric matrix $A^{\mathrm{T}} A$ is $n$ by $n$. It is invertible if the $\boldsymbol{a}$ 's are independent. The solution is $\widehat{\boldsymbol{x}}=\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} \boldsymbol{b}$. The projection of $\boldsymbol{b}$ onto the subspace is $\boldsymbol{p}$ :
 Find $\boldsymbol{p}(m \times 1)$
+
 $$
 \boldsymbol{p}=A \widehat{\boldsymbol{x}}=A\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} \boldsymbol{b} .
 $$
+
 The next formula picks out the projection matrix that is multiplying $b$ in (6):
 Find $\boldsymbol{P}(m \times m)$
+
 $$
 P=A\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} .
 $$
