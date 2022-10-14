@@ -287,9 +287,7 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 其中 $i=1, \cdots, m$. 方程 (1) 说明, $\boldsymbol{x}$ 与 $A^{\mathrm{T}}$ 的第 $i$ 个列向量正交, 其中 $i=1, \cdots, m$. 由 于 $\boldsymbol{x}$ 和 $A^{\mathrm{T}}$ 的每一个列向量正交, 所以它和 $A^{\mathrm{T}}$ 的列向量的任何线性组合也正交. 因此, 若 $\boldsymbol{y}$ 为 $A^T$ 的列空间中的任何一个向量, 则 $\boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0$. 于是, $N(A)$ 中的每一向量都和 $A^{\mathrm{T}}$ 的列空间中的任何向量正交. 当 $\mathbf{R}^n$ 的两个子空间具有这个性质( $\boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0$ )时, 称它们是正交的.
 
 #### 正交补
-定义 令 $Y$ 为 $\mathbf{R}^n$ 的子空间. $\mathbf{R}^n$ 中所有与 $Y$ 中的每一 向量正交的向量集合记为 $Y^{\perp}$. 因此
-$Y^{\perp}=\left\{\boldsymbol{x} \in \mathbf{R}^n \mid \boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0\right.$, 对每一 $\left.\boldsymbol{y} \in Y\right\}$
-集合 $Y^{\perp}$ 称为 $Y$ 的正交补(orthogonal complement).
+![image](https://user-images.githubusercontent.com/111955215/195830293-ff4aabae-5d61-4f8e-934b-b001d6f4fff7.png)
 
 正交补的概念要考虑**取满**能正交的集合
 
@@ -297,7 +295,6 @@ $Y^{\perp}=\left\{\boldsymbol{x} \in \mathbf{R}^n \mid \boldsymbol{x}^{\mathrm{T
 基本子空间定理：若 $A$ 为 $-m \times n$ 矩阵, 则 $N(A)=R\left(A^{\mathrm{T}}\right)^{\perp}$, 且 $N\left(A^{\mathrm{T}}\right)=R(A)^{\perp}$.
 
 #### 互为正交补的两个空间维数互补
-定理 若 $S$ 为 $\mathbf{R}^n$ 的一个子空间, 则 $\operatorname{dim} S+\operatorname{dim} S^{\perp}=n$. 此外, 若 $\left\{\boldsymbol{x}_1, \cdots\right.$, $\left.\boldsymbol{x}_r\right\}$ 为 $S$ 的一组基, 且 $\left\{\boldsymbol{x}_{r+1}, \cdots, \boldsymbol{x}_n\right\}$ 为 $S^{\perp}$ 的一组基, 则 $\left\{\boldsymbol{x}_1, \cdots, \boldsymbol{x}_r, \boldsymbol{x}_{r+1}, \cdots, \boldsymbol{x}_n\right\}$ 为 $\mathbf{R}^n$ 的一组基.
 
 想象一下三维空间中的一维和二维空间则很好理解这个定理
 
