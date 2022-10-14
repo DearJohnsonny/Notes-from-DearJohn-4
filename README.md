@@ -415,3 +415,7 @@ $$
 要解特征向量就非常简单了，只需要将这个式子 $A \overrightarrow{\mathbf{v}}=\lambda \overrightarrow{\mathbf{v}}$ 做一下变换，向量乘对应的I为本身，从而将其变为两个矩阵相等 $A \overrightarrow{\mathbf{v}}=(\lambda I) \overrightarrow{\mathbf{v}}$ ，从而得到 $(A-\lambda I) \overrightarrow{\mathbf{v}}=\overrightarrow{0}$
 
 而要一个非零向量进行左边的线性变换 $A-\lambda I$ 之后变为0向量，则其维数降低，也就是需要该线性变换将其压缩，因此 $\operatorname{det}(A-\lambda I)=0$
+
+## 对角化 Diagonalizing
+
+![image](https://user-images.githubusercontent.com/111955215/195865438-f35858ed-ba9d-4a94-af43-b7fa49afb657.png)
