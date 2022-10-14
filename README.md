@@ -296,6 +296,11 @@ $Y^{\perp}=\left\{\boldsymbol{x} \in \mathbf{R}^n \mid \boldsymbol{x}^{\mathrm{T
 #### N(A)与R(A^T)互为正交补（基本子空间定理）
 基本子空间定理：若 $A$ 为 $-m \times n$ 矩阵, 则 $N(A)=R\left(A^{\mathrm{T}}\right)^{\perp}$, 且 $N\left(A^{\mathrm{T}}\right)=R(A)^{\perp}$.
 
+#### 互为正交补的两个空间维数互补
+定理 若 $S$ 为 $\mathbf{R}^n$ 的一个子空间, 则 $\operatorname{dim} S+\operatorname{dim} S^{\perp}=n$. 此外, 若 $\left\{\boldsymbol{x}_1, \cdots\right.$, $\left.\boldsymbol{x}_r\right\}$ 为 $S$ 的一组基, 且 $\left\{\boldsymbol{x}_{r+1}, \cdots, \boldsymbol{x}_n\right\}$ 为 $S^{\perp}$ 的一组基, 则 $\left\{\boldsymbol{x}_1, \cdots, \boldsymbol{x}_r, \boldsymbol{x}_{r+1}, \cdots, \boldsymbol{x}_n\right\}$ 为 $\mathbf{R}^n$ 的一组基.
+
+想象一下三维空间中的一维和二维空间则很好理解这个定理
+
 # 正交性 Orthogonality 
 ## 线性无关、基与维数
 1. Independent vectors(no extra vectors) 
