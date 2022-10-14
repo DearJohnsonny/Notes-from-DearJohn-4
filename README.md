@@ -17,6 +17,9 @@
 * 行列式的值的绝对值表示该（改变原基向量）的线性变换形成的新基底的乘积放大（或缩小）多少倍（如果是2 × 2矩阵，则是拉伸x轴和y轴的基底并产生的新四边形的面积；若为3 × 3矩阵，则为体积）
   ![image](https://user-images.githubusercontent.com/111955215/195833908-c2efe3d4-5124-4a43-9a12-4f85aec2e669.png)
 * 该结果的正负表示空间上的变向（如二维的翻面）
+* 借助下图理解一下行列式的展开
+  ![image](https://user-images.githubusercontent.com/111955215/195835018-ada169e3-a73d-4afc-a5bd-760b56830d0e.png)
+
 # Introduction to Vectors and Matrics
 
 ## Lengths and Dot Products
