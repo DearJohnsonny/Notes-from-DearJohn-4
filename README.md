@@ -396,3 +396,20 @@ Find $\boldsymbol{P}(m \times m)$
 $$
 P=A\left(A^{\mathrm{T}} A\right)^{-1} A^{\mathrm{T}} .
 $$
+
+# 特征值和特征向量
+对一个空间进行线性变换之后发现大多数向量都会离开原来所张成的空间
+![image](https://user-images.githubusercontent.com/111955215/195835359-26314d04-824f-4fe9-b4ea-b670585a5b25.png)
+
+而有的特殊向量会留在原空间中，其被称为特征向量
+![image](https://user-images.githubusercontent.com/111955215/195835643-9629d674-ddda-41f8-a88c-8686aa507114.png)
+
+还比如三维空间中的旋转轴
+![image](https://user-images.githubusercontent.com/111955215/195835891-a6600ba5-293f-425b-a305-a39ca591c959.png)
+
+而该拉伸的倍数被称为特征值（该例下特征值为1）
+
+想象特征值和特征向量的拉伸非常有助于我们理解该线性变换（如下图）
+![image](https://user-images.githubusercontent.com/111955215/195836489-f71612a8-f244-4ab6-aa15-2127184a1d95.png)
+
+要解特征向量就非常简单了，只需要将这个式子 $A \overrightarrow{\mathbf{v}}=\lambda \overrightarrow{\mathbf{v}}$ 做一下变换，向量乘对应的I为本身，从而将其变为两个矩阵相等 $A \overrightarrow{\mathbf{v}}=(\lambda I) \overrightarrow{\mathbf{v}}$ ，从而得到 $(A-\lambda I) \overrightarrow{\mathbf{v}}=\overrightarrow{0}$
