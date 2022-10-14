@@ -286,7 +286,15 @@ Every matrix $A$ with full row $\operatorname{rank}(\boldsymbol{r}=\boldsymbol{m
 令 $A$ 为一 $m \times n$ 矩阵, 并令 $\boldsymbol{x} \in N(A), N(A)$ 为 $A$ 的零空间. 由于 $A \boldsymbol{x}=\mathbf{0}$, 我们有 $a_{i 1} x_1+a_{i 2} x_2+\cdots+a_{i n} x_n=0$
 其中 $i=1, \cdots, m$. 方程 (1) 说明, $\boldsymbol{x}$ 与 $A^{\mathrm{T}}$ 的第 $i$ 个列向量正交, 其中 $i=1, \cdots, m$. 由 于 $\boldsymbol{x}$ 和 $A^{\mathrm{T}}$ 的每一个列向量正交, 所以它和 $A^{\mathrm{T}}$ 的列向量的任何线性组合也正交. 因此, 若 $\boldsymbol{y}$ 为 $A^T$ 的列空间中的任何一个向量, 则 $\boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0$. 于是, $N(A)$ 中的每一向量都和 $A^{\mathrm{T}}$ 的列空间中的任何向量正交. 当 $\mathbf{R}^n$ 的两个子空间具有这个性质( $\boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0$ )时, 称它们是正交的.
 
-定义 设 $X$ 和 $Y$ 为 $\mathbf{R}^n$ 的子空间, 若对每一 $\boldsymbol{x} \in X$ 及 $\boldsymbol{y} \in Y$ 都有 $\boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0$, 则称 $X$ 和 $Y$ 为正交的 (orthogonal). 若 $X$ 和 $Y$ 是正交的, 我们记为 $X \perp Y$.
+#### 正交补
+定义 令 $Y$ 为 $\mathbf{R}^n$ 的子空间. $\mathbf{R}^n$ 中所有与 $Y$ 中的每一 向量正交的向量集合记为 $Y^{\perp}$. 因此
+$Y^{\perp}=\left\{\boldsymbol{x} \in \mathbf{R}^n \mid \boldsymbol{x}^{\mathrm{T}} \boldsymbol{y}=0\right.$, 对每一 $\left.\boldsymbol{y} \in Y\right\}$
+集合 $Y^{\perp}$ 称为 $Y$ 的正交补(orthogonal complement).
+
+正交补的概念要考虑**取满**能正交的集合
+
+#### N(A)与R(A^T)互为正交补（基本子空间定理）
+基本子空间定理：若 $A$ 为 $-m \times n$ 矩阵, 则 $N(A)=R\left(A^{\mathrm{T}}\right)^{\perp}$, 且 $N\left(A^{\mathrm{T}}\right)=R(A)^{\perp}$.
 
 # 正交性 Orthogonality 
 ## 线性无关、基与维数
