@@ -426,9 +426,7 @@ $$
 
 3 The eigenvector matrix $X$ also diagonalizes all powers $A^k$ : $A^k=\boldsymbol{X} \Lambda^k \boldsymbol{X}^{-1}$
 
-4 Solve $\boldsymbol{u}_{k+1}=A \boldsymbol{u}_k$ by $\boldsymbol{u}_k=A^k \boldsymbol{u}_0=X \Lambda^k X^{-1} \boldsymbol{u}_0=\boldsymbol{c}_1\left(\boldsymbol{\lambda}_1\right)^k \boldsymbol{x}_1+\cdots+\boldsymbol{c}_{\boldsymbol{n}}\left(\boldsymbol{\lambda}_{\boldsymbol{n}}\right)^k \boldsymbol{x}_{\boldsymbol{n}}$
-
-5 No equal eigenvalues $\Rightarrow X$ is invertible and $A$ can be diagonalized.
+4 No equal eigenvalues $\Rightarrow X$ is invertible and $A$ can be diagonalized.
 Equal eigenvalues $\Rightarrow A$ might have too few independent eigenvectors. Then $X^{-1}$ fails.
 
-6 Every matrix $C=B^{-1} A B$ has the same eigenvalues as $A$. These $C$ 's are "similar" to $A$.
+5 Every matrix $C=B^{-1} A B$ has the same eigenvalues as $A$. These $C$ 's are "similar" to $A$.
