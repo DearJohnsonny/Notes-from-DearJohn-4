@@ -456,5 +456,6 @@ $$
 $$
 
 Proof 
+
 Suppose $C \boldsymbol{x}=\lambda \boldsymbol{x}$. Then $B C B^{-1}$ has the same eigenvalue $\lambda$ with the new eigenvector $B \boldsymbol{x}$ :
 Same $\boldsymbol{\lambda} \quad\left(B C B^{-1}\right)(B \boldsymbol{x})=B C \boldsymbol{x}=B \lambda \boldsymbol{x}=\lambda(B \boldsymbol{x})$
