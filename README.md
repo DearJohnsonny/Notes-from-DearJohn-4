@@ -477,7 +477,7 @@ Proof
 Suppose $C \boldsymbol{x}=\lambda \boldsymbol{x}$. Then $B C B^{-1}$ has the same eigenvalue $\lambda$ with the new eigenvector $B \boldsymbol{x}$ :
 Same $\boldsymbol{\lambda} \quad\left(B C B^{-1}\right)(B \boldsymbol{x})=B C \boldsymbol{x}=B \lambda \boldsymbol{x}=\lambda(B \boldsymbol{x})$
 
-在选择了两个不同的角度（线性空间的两组基）之后，同一个线性变换所对应的矩阵是不一样的。而这些矩阵都是彼此相似的矩阵。也就是说，相似矩阵是同一个线性变换在不同基下的矩阵。
+在选择了两个不同的角度（线性空间的两组基）之后，同一个线性变换所对应的矩阵是不一样的。而这些矩阵都是彼此相似的矩阵。也就是说，相似矩阵是同一个线性变换在不同基下的矩阵，因此线性变换相同，则对应的线性变换的特征值也相同，只是选择的基底不同而已。
 
 只要找到这两个组基的过渡矩阵（实际上就是基变换矩阵），就可以轻松得到相似定义中的公式
 
