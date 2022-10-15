@@ -446,4 +446,5 @@ Equal eigenvalues $\Rightarrow A$ might have too few independent eigenvectors. T
 <img src="https://user-images.githubusercontent.com/111955215/195963110-c312fe9a-b705-47a2-9f22-f3b52f79e5c7.png" width="900">
 </div>
 
+
 需要提到的是：表达式 $A^{-1} M A$ 暗示着一种数学上的转移作用，中间的矩阵代表一种线性变换，而外侧的两个矩阵代表着转移作用
