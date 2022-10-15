@@ -416,7 +416,7 @@ $$
 
 而要一个非零向量进行左边的线性变换 $A-\lambda I$ 之后变为0向量，则其维数降低，也就是需要该线性变换将其压缩，因此 $\operatorname{det}(A-\lambda I)=0$
 
-## 对角化 Diagonalizing
+## 对角化 Diagonalizing 也叫作相似对角化
 
 ![image](https://user-images.githubusercontent.com/111955215/195865438-f35858ed-ba9d-4a94-af43-b7fa49afb657.png)
 
