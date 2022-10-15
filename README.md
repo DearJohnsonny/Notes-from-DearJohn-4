@@ -2,7 +2,7 @@
 
 <a href="https://dearjohnsonny.github.io/Notes-from-DearJohn-2/">Notes from DearJohn-2</a>
 
-<a href="https://dearjohnsonny.github.io/Notes-from-DearJohn-3/">Notes from DearJohn-3</a>
+<a href="https://dearjohnsonny.github.io/Notes-from-DearJohn-3/">Notes3-Statistics</a>
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/195361749-01b1343d-0dc6-497b-bbc1-1b0ae149ca5e.png" width="900">
