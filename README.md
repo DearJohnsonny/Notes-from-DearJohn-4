@@ -513,6 +513,16 @@ $$
 <img src="https://user-images.githubusercontent.com/111955215/195971385-543fc40b-410d-48c6-8933-f8c4e1bb8fe6.png" width="500">
 </div>
 
+从线性变换的角度理解奇异值分解, $m \times n$ 矩阵 $A$ 表示从 $n$ 维空间 $\mathbf{R}^n$ 到 $m$ 维空间 $\mathbf{R}^m$ 的一个线性变换，
+
+$$
+T: x \rightarrow A x
+$$
+
+$x \in \mathbf{R}^n, A x \in \mathbf{R}^m, x$ 和 $A x$ 分别是各自空间的向量。线性变换可以分解为三个简单 的变换: 一个坐标系的旋转或反射变换、一个坐标轴的缩放变换、另一个坐标系的旋 转或反射变换。奇异值定理保证这种分解一定存在。这就是奇异值分解的几何解释。
+对矩阵 $A$ 进行奇异值分解, 得到 $A=U \Sigma V^{\mathrm{T}}, V$ 和 $U$ 都是正交矩阵, 所以 $V$ 的 列向量 $v_1, v_2, \cdots, v_n$ 构成 $\mathbf{R}^n$ 空间的一组标准正交基, 表示 $\mathbf{R}^n$ 中的正交坐标系的 旋转或反射变换; $U$ 的列向量 $u_1, u_2, \cdots, u_m$ 构成 $\mathbf{R}^m$ 空间的一组标准正交基, 表示 $\mathbf{R}^m$ 中的正交坐标系的旋转或反射变换; $\Sigma$ 的对角元素 $\sigma_1, \sigma_2, \cdots, \sigma_n$ 是一组非负实 数, 表示 $\mathbf{R}^n$ 中的原始正交坐标系坐标轴的 $\sigma_1, \sigma_2, \cdots, \sigma_n$ 倍的缩放变换。
+任意一个向量 $x \in \mathbf{R}^n$, 经过基于 $A=U \Sigma V^{\mathrm{T}}$ 的线性变换, 等价于经过坐标系 的旋转或反射变换 $V^{\mathrm{T}}$, 坐标轴的缩放变换 $\Sigma$, 以及坐标系的旋转或反射变换 $U$, 得 到向量 $A x \in \mathbf{R}^m$ 。图 $15.1$ 给出直观的几何解释 (见文前彩图)。原始空间的标准正交 基 (红色与黄色), 经过坐标系的旋转变换 $V^{\mathrm{T}}$ 、坐标轴的缩放变换 $\Sigma$ (黑色 $\sigma_1, \sigma_2$ ） 坐标系的旋转变换 $U$, 得到和经过线性变换 $A$ 等价的结果。
+
 定义(奇异值分解) 矩阵的奇异值分解是指, 将一个非零的 $m \times n$ 实矩阵 $A, A \in \mathbf{R}^{m \times n}$, 表示为以下三个实矩阵乘积形式的运算 (1), 即进行矩阵的因子分解:
 
 $$
