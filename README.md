@@ -430,3 +430,19 @@ $$
 Equal eigenvalues $\Rightarrow A$ might have too few independent eigenvectors. Then $X^{-1}$ fails.
 
 5 Every matrix $C=B^{-1} A B$ has the same eigenvalues as $A$. These $C$ 's are "similar" to $A$.
+
+## 需要提到的基变换
+常规选择的基底是i和j，而有时会选择任意其他的b1和b2作为基底。如果希望对该b1和b2作为基底的某个向量进行线性变换，需要先将该基底变换为常规基底i和j，因为如果将矩阵视为线性变换的前提是基底为单位向量。
+
+用i和j来理解b1和b2的话，只需要将两个基底分别作为列向量。下图即为将在b1和b2下表示为[-1,2]的向量转换为常规基底下的向量的过程：
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/195962958-d7d02cd3-746a-4bbc-a653-5df00da425cf.png" width="600">
+</div>
+
+因此可以得到下列的基变换过程，先用常规基底来刻画向量，再线性变换，最后再用逆矩阵将该变换还原到原来的基底：
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/195963110-c312fe9a-b705-47a2-9f22-f3b52f79e5c7.png" width="900">
+</div>
+
