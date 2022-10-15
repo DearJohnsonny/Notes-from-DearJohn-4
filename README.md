@@ -509,10 +509,10 @@ Bottom: The action of Σ, a scaling by the singular values σ1 horizontally and 
 Right: The action of U, another rotation.
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/111955215/195971385-543fc40b-410d-48c6-8933-f8c4e1bb8fe6.png" width="900">
+<img src="https://user-images.githubusercontent.com/111955215/195971385-543fc40b-410d-48c6-8933-f8c4e1bb8fe6.png" width="500">
 </div>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/111955215/195971524-e2cac564-c772-4e7f-b326-9f18c2e74cb4.png" width="900">
+<img src="https://user-images.githubusercontent.com/111955215/195971524-e2cac564-c772-4e7f-b326-9f18c2e74cb4.png" width="500">
 </div>
 
