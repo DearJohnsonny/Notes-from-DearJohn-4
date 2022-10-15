@@ -461,6 +461,8 @@ Suppose $C \boldsymbol{x}=\lambda \boldsymbol{x}$. Then $B C B^{-1}$ has the sam
 Same $\boldsymbol{\lambda} \quad\left(B C B^{-1}\right)(B \boldsymbol{x})=B C \boldsymbol{x}=B \lambda \boldsymbol{x}=\lambda(B \boldsymbol{x})$
 
 ### 相似矩阵具有相同的特征多项式 Similar matrices have the same characteristic polynomial.
+
+PS：特征多项式是行列式的展开： $\operatorname{det}(x I-A)$ 
 Proof. If $B=P^{-1} A P$, then
 
 $$
