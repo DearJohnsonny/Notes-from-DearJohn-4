@@ -418,6 +418,8 @@ $$
 
 ## 对角化 Diagonalizing 也叫作相似对角化
 
+**对角化的结果是一个对角矩阵，本质就是把矩阵列向量都放到标准轴上对角矩阵一定是观看演出时的“最佳视角” **
+
 ![image](https://user-images.githubusercontent.com/111955215/195865438-f35858ed-ba9d-4a94-af43-b7fa49afb657.png)
 
 1 The columns of $A X=X \Lambda$ are $A \boldsymbol{x}_k=\lambda_k \boldsymbol{x}_k$. The eigenvalue matrix $\Lambda$ is diagonal.
@@ -444,7 +446,7 @@ Equal eigenvalues $\Rightarrow A$ might have too few independent eigenvectors. T
 
 正交矩阵的各个基底本身就是相互垂直，只是说它不见得是各个标准轴，因为可能并不放在各个标准轴上，可能有移动或者旋转
 
-对角化的结果是一个对角矩阵，本质就是把矩阵列向量都放到标准轴上。 那么很显然：正交矩阵一定可以做到！
+**对角化的结果是一个对角矩阵，本质就是把矩阵列向量都放到标准轴上**。 那么很显然：正交矩阵一定可以做到！
 
 因此：凡是正交矩阵一定可以对角化
 
