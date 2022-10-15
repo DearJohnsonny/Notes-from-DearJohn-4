@@ -460,8 +460,9 @@ Proof
 Suppose $C \boldsymbol{x}=\lambda \boldsymbol{x}$. Then $B C B^{-1}$ has the same eigenvalue $\lambda$ with the new eigenvector $B \boldsymbol{x}$ :
 Same $\boldsymbol{\lambda} \quad\left(B C B^{-1}\right)(B \boldsymbol{x})=B C \boldsymbol{x}=B \lambda \boldsymbol{x}=\lambda(B \boldsymbol{x})$
 
-Lemma. Similar matrices have the same characteristic polynomial.
+### 相似矩阵具有相同的特征多项式 Similar matrices have the same characteristic polynomial.
 Proof. If $B=P^{-1} A P$, then
+
 $$
 \begin{aligned}
 \operatorname{det}(x I-B) &=\operatorname{det}\left(x I-P^{-1} A P\right) \\
