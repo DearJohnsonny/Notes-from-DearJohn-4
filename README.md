@@ -499,6 +499,10 @@ $$
 
 ## 奇异值分解 Singular value decomposition
 
+<a href="https://blog.csdn.net/nstarLDS/article/details/106206805">不错的证明</a>
+
+<a href="https://zhuanlan.zhihu.com/p/29846048">可以看看的例子</a>
+
 以2 × 2矩阵为例介绍奇异值分解的意义：
 
 **Top**: The action of M, indicated by its effect on the unit disc D and the two canonical unit vectors e1 and e2.
