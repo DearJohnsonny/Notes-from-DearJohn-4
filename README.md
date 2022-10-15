@@ -513,6 +513,26 @@ $$
 <img src="https://user-images.githubusercontent.com/111955215/195971385-543fc40b-410d-48c6-8933-f8c4e1bb8fe6.png" width="500">
 </div>
 
+定义(奇异值分解) 矩阵的奇异值分解是指, 将一个非零的 $m \times n$ 实矩阵 $A, A \in \mathbf{R}^{m \times n}$, 表示为以下三个实矩阵乘积形式的运算 (1), 即进行矩阵的因子分解:
+
+$$
+A=U \Sigma V^{\mathrm{T}}
+$$
+
+其中 $U$ 是 $m$ 阶**标准正交矩阵** ( orthogonal matrix), $V$ 是 $n$ 阶**标准正交矩阵**, $\Sigma$ 是由降序排列的非负的对角线元素组成的 $m \times n$ 矩形对角矩阵 (rectangular diagonal matrix)
+
+其中：
+
+$$
+\begin{aligned}
+&\mathrm{UU}^{\mathrm{T}}=\mathrm{I} \\
+&\mathrm{V} \mathrm{V}^{\mathrm{T}}=\mathrm{I} \\
+&\Sigma=\operatorname{diag}\left(\sigma_1, \sigma_2, \cdots, \sigma_{\mathrm{p}}\right) \\
+&\sigma_1 \geqslant \sigma_2 \geqslant \cdots \geqslant \sigma_{\mathrm{p}} \geqslant 0 \\
+&\mathrm{p}=\min (\mathrm{m}, \mathrm{n})
+\end{aligned}
+$$
+
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/195971524-e2cac564-c772-4e7f-b326-9f18c2e74cb4.png" width="500">
 </div>
