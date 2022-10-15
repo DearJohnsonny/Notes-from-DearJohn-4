@@ -448,3 +448,12 @@ Equal eigenvalues $\Rightarrow A$ might have too few independent eigenvectors. T
 
 
 需要提到的是：表达式 $A^{-1} M A$ 暗示着一种数学上的转移作用，中间的矩阵代表一种线性变换，而外侧的两个矩阵代表着转移作用
+
+## 相似矩阵 Similar Matrices: Same Eigenvalues 
+
+$$
+\text { All the matrices } A=B C B^{-1} \text { are "similar." They all share the eigenvalues of } C \text {. }
+$$
+
+Proof Suppose $C \boldsymbol{x}=\lambda \boldsymbol{x}$. Then $B C B^{-1}$ has the same eigenvalue $\lambda$ with the new eigenvector $B \boldsymbol{x}$ :
+Same $\boldsymbol{\lambda} \quad\left(B C B^{-1}\right)(B \boldsymbol{x})=B C \boldsymbol{x}=B \lambda \boldsymbol{x}=\lambda(B \boldsymbol{x})$
