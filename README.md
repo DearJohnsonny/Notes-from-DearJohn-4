@@ -422,7 +422,7 @@ $$
 
 1 The columns of $A X=X \Lambda$ are $A \boldsymbol{x}_k=\lambda_k \boldsymbol{x}_k$. The eigenvalue matrix $\Lambda$ is diagonal.
 
-2 \boldsymbol{n}$ independent eigenvectors in $X$ diagonalize $A \quad A=\boldsymbol{X} \boldsymbol{X}^{-1}$ and $\boldsymbol{\Lambda}=\boldsymbol{X}^{-1} \boldsymbol{A} \boldsymbol{X}$
+2 $\boldsymbol{n}$ independent eigenvectors in $X$ diagonalize $A \quad A=\boldsymbol{X} \boldsymbol{X}^{-1}$ and $\boldsymbol{\Lambda}=\boldsymbol{X}^{-1} \boldsymbol{A} \boldsymbol{X}$
 
 3 The eigenvector matrix $X$ also diagonalizes all powers $A^k$ : $A^k=\boldsymbol{X} \Lambda^k \boldsymbol{X}^{-1}$
 
