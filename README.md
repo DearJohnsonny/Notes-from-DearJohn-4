@@ -525,7 +525,7 @@ $x \in \mathbf{R}^n, A x \in \mathbf{R}^m, x$ 和 $A x$ 分别是各自空间的
 
 任意一个向量 $x \in \mathbf{R}^n$, 经过基于 $A=U \Sigma V^{\mathrm{T}}$ 的线性变换, 等价于经过坐标系 的旋转或反射变换 $V^{\mathrm{T}}$, 坐标轴的缩放变换 $\Sigma$, 以及坐标系的旋转或反射变换 $U$, 得 到向量 $A x \in \mathbf{R}^m$ 。图 $15.1$ 给出直观的几何解释 (见文前彩图)。原始空间的标准正交 基 (红色与黄色), 经过坐标系的旋转变换 $V^{\mathrm{T}}$ 、坐标轴的缩放变换 $\Sigma$ (黑色 $\sigma_1, \sigma_2$ ） 坐标系的旋转变换 $U$, 得到和经过线性变换 $A$ 等价的结果。
 
-定义(奇异值分解) 矩阵的奇异值分解是指, 将一个非零的 $m \times n$ 实矩阵 $A, A \in \mathbf{R}^{m \times n}$, 表示为以下三个实矩阵乘积形式的运算 (1), 即进行矩阵的因子分解:
+**定义**(**奇异值分解**) 矩阵的奇异值分解是指, 将一个非零的 $m \times n$ 实矩阵 $A, A \in \mathbf{R}^{m \times n}$, 表示为以下三个实矩阵乘积形式的运算 (1), 即进行矩阵的因子分解:
 
 $$
 A=U \Sigma V^{\mathrm{T}}
@@ -544,6 +544,8 @@ $$
 &\mathrm{p}=\min (\mathrm{m}, \mathrm{n})
 \end{aligned}
 $$
+
+如下图：
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/195971524-e2cac564-c772-4e7f-b326-9f18c2e74cb4.png" width="500">
