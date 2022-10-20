@@ -90,6 +90,7 @@ $$
 **三点式方程**：
 
 由于三点确定一个平面, 加入找到平面上不共线三个点 $\left(x_i, y_i, z_i\right)$, 其中 $i=$ $1,2,3$, 就可以直接 “凑出” 一个包含上述三个点的平面:
+
 $$
 \left|\begin{array}{ccc}
 x-x_1 & y-y_1 & z-z_1 \\
@@ -97,7 +98,8 @@ x_2-x_1 & y_2-y_1 & z_2-z_1 \\
 x_3-x_1 & y_3-y_1 & z_3-z_1
 \end{array}\right|=0
 $$
-显然将 $(x, y, z)$ 代入 $\left(x_i, y_i, z_i\right)$ 时行列式为 0 。 三点式方程一般不在习题中使用, 除非题千明确了平面上三个点。
+
+上式的含义是 $\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})$ ，即：（x-x1，y-y1,z-z1）这个通向量与下面两个向量的叉积向量的内积为0，说明垂直，从而共面，形成这个确定的面
 
 # Introduction to Vectors and Matrics
 
