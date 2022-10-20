@@ -8,6 +8,14 @@
 <img src="https://user-images.githubusercontent.com/111955215/195361749-01b1343d-0dc6-497b-bbc1-1b0ae149ca5e.png" width="900">
 </div>
 
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/196833895-0f60f1ee-8163-4ae3-8eef-8c509937e251.png" width="1500">
+</div>
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/196833845-03c478c0-177f-40a0-95ab-f19df39c91d1.png" width="1500">
+</div>
+
 # Determinants 行列式
 * 方阵才有行列式，行列式的结果是一个值（可正可负）。
 * 行列式为0的矩阵为奇异矩阵，不可逆（没有乘法逆元）
