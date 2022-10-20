@@ -77,6 +77,27 @@ $$
 
 向量的外积：$\left.\left(x_1, y_1, z_1\right) \times\left(x_2, y_2, z_2\right)=\left(\left|\begin{array}{ll}y_1 & z_1 \\ y_2 & z_2\end{array}\right|, \mid \begin{array}{cc}z_1 & x_1 \\ z_2 & x_2\end{array}\right],\left|\begin{array}{ll}x_1 & y_1 \\ x_2 & y_2\end{array}\right|\right)$
 
+**三维向量叉乘**：
+
+$$
+a \times b=\left|\begin{array}{lll}
+\mathrm{i} & \mathrm{j} & \mathrm{k} \\
+x_1 & y_1 & z_1 \\
+x_2 & y_2 & z_2
+\end{array}\right|=\left(y_1 z_2-y_2 z_1\right) i-\left(x_1 z_2-x_2 z_1\right) j+\left(x_1 y_2-x_2 y_1\right) k
+$$
+
+**三点式方程**：
+
+由于三点确定一个平面, 加入找到平面上不共线三个点 $\left(x_i, y_i, z_i\right)$, 其中 $i=$ $1,2,3$, 就可以直接 “凑出” 一个包含上述三个点的平面:
+$$
+\left|\begin{array}{ccc}
+x-x_1 & y-y_1 & z-z_1 \\
+x_2-x_1 & y_2-y_1 & z_2-z_1 \\
+x_3-x_1 & y_3-y_1 & z_3-z_1
+\end{array}\right|=0
+$$
+显然将 $(x, y, z)$ 代入 $\left(x_i, y_i, z_i\right)$ 时行列式为 0 。 三点式方程一般不在习题中使用, 除非题千明确了平面上三个点。
 
 # Introduction to Vectors and Matrics
 
