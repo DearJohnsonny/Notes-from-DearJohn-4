@@ -5,8 +5,9 @@
 <a href="https://dearjohnsonny.github.io/Notes3-Statistics/">Notes3-Statistics</a>
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/111955215/196834280-7f615f8a-951b-4475-bd54-7fdf833411e2.png" width="1500">
+<img src="https://user-images.githubusercontent.com/111955215/196834390-53f62718-18ed-4975-b607-bcaa4911e254.png" width="1500">
 </div>
+
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/196833895-0f60f1ee-8163-4ae3-8eef-8c509937e251.png" width="1500">
