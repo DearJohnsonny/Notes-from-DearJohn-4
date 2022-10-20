@@ -17,6 +17,49 @@
 <img src="https://user-images.githubusercontent.com/111955215/196833845-03c478c0-177f-40a0-95ab-f19df39c91d1.png" width="1500">
 </div>
 
+# 克莱姆法则
+在引入克莱姆法则之前，先引入有关n元线性方程组和有关矩阵、行列式的概念。含有n个未知数的线性方程组称为n元线性方程组。
+
+$$
+\left\{\begin{array}{l}
+a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n=b_1 \\
+a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n=b_2 \\
+\cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \\
+a_{n 1} x_1+a_{n 2} x_2+\cdots+a_{n n} x_n=b_n
+\end{array}\right.
+$$
+
+当常数项全为零时，线性方程组⑵称为齐次线性方程组：
+
+$$
+\left\{\begin{array}{l}
+a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n=0 \\
+a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n=0 \\
+\cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \\
+a_{n 1} x_1+a_{n 2} x_2+\cdots+a_{n n} x_n=0
+\end{array}\right.
+$$
+
+系数构成的行列式称为该方程组的系数行列式D：
+
+$$
+\text { 即 } D=\left|\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1 n} \\
+a_{21} & a_{22} & \cdots & a_{2 n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{n 1} & a_{n 2} & \cdots & a_{n n}
+\end{array}\right|
+$$
+
+定理
+记法1: 若线性方程组(1)的系数矩阵可逆 (非奇异)，即系数行列式 $\mathrm{D} \neq 0$ 。有唯一解，其解为 $X_0=A^{-1} \beta$
+
+记法2: 若线性方程组 (1)的系数矩阵可逆（非奇异），即系数行列式 $D \neq 0$ ，则线性方程组(1)有唯一解，其解为 $x_j=\frac{D_j}{D}(j=1,2, \cdots, n)$
+
+其中 $D_j$ 是把D中第j列元素对应地换成常数项而其余各列保持不变所得到的行列式。
+
+记法1是将解写成矩阵 (列向量) 形式，而记法 2 是将解分别写成数字，本质相同。当其右端的常数项b1,b2,...,bn不全为零时，线性方程组⑴称为非齐次线性方程组。
+
 # Determinants 行列式
 * 方阵才有行列式，行列式的结果是一个值（可正可负）。
 * 行列式为0的矩阵为奇异矩阵，不可逆（没有乘法逆元）
