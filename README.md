@@ -17,6 +17,66 @@
 <img src="https://user-images.githubusercontent.com/111955215/196833845-03c478c0-177f-40a0-95ab-f19df39c91d1.png" width="1500">
 </div>
 
+# 杂谈
+## 旋转矩阵 
+旋转矩阵（Rotation Matrix):是在乘以一个向量的时候有改变向量的方向但不改变大小的效果并保持了手性的矩阵。
+
+### 原坐标轴改变至新坐标轴
+
+旋转矩阵M={新x轴x，新y轴x，
+
+          新x轴y，新y轴y}
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/198181063-096afed7-ed57-43ed-a912-4231c4aa8ec3.png" width="1500">
+</div>
+
+$$
+M(\theta)=\left[\begin{array}{cc}
+\cos \theta & -\sin \theta \\
+\sin \theta & \cos \theta
+\end{array}\right]=\cos \theta\left[\begin{array}{ll}
+1 & 0 \\
+0 & 1
+\end{array}\right]+\sin \theta\left[\begin{array}{cc}
+0 & -1 \\
+1 & 0
+\end{array}\right]=\exp \left(\theta\left[\begin{array}{cc}
+0 & -1 \\
+1 & 0
+\end{array}\right]\right)
+$$
+
+### 绕原坐标轴原点旋转角度β
+
+旋转矩阵M={ cos(β), -sin(β),
+
+           sin(β),   cos(β) }
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/198180685-c8dc73f1-56ab-4be6-91bc-72042a2ceb53.png" width="700">
+</div>
+
+$$
+\left\{\begin{array}{l}
+x^{\prime}=|O P| \cdot \cos (\alpha+\beta)=|O P| \cdot(\cos \alpha \cdot \cos \beta-\sin \alpha \cdot \sin \beta)=x \cdot \cos \beta-y \cdot \sin \beta \\
+y^{\prime}=|O P| \cdot \sin (\alpha+\beta)=|O P| \cdot(\cos \alpha \cdot \sin \beta+\sin \alpha \cdot \cos \beta)=x \cdot \sin \beta+y \cdot \cos \beta
+\end{array}\right.
+$$
+
+用矩阵形式重新表示为
+
+$$
+\left[\begin{array}{c}
+x^{\prime} \\
+y^{\prime}
+\end{array}\right]=\left[\begin{array}{cc}
+\cos \beta & -\sin \beta \\
+\sin \beta & \cos \beta
+\end{array}\right] \cdot\left[\begin{array}{l}
+x \\
+y
+\end{array}\right]
+$$
 
 # Determinants 行列式
 * 方阵才有行列式，行列式的结果是一个值（可正可负）。
