@@ -23,10 +23,6 @@
 
 ### 原坐标轴改变至新坐标轴
 
-旋转矩阵M={新x轴x，新y轴x，
-
-          新x轴y，新y轴y}
-
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/198181063-096afed7-ed57-43ed-a912-4231c4aa8ec3.png" width="1500">
 </div>
@@ -48,10 +44,7 @@ M(\theta)=\left[\begin{array}{cc}
 $$
 
 ### 绕原坐标轴原点旋转角度β
-
-旋转矩阵M={ cos(β), -sin(β),
-
-           sin(β),   cos(β) }
+          
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/198180685-c8dc73f1-56ab-4be6-91bc-72042a2ceb53.png" width="700">
 </div>
