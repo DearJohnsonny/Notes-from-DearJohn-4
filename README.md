@@ -71,6 +71,12 @@ y
 \end{array}\right]
 $$
 
+## 关于矩阵的秩
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/198437930-aaa1b564-2471-4e35-8e5c-5ca3ef18625f.png" width="700">
+</div>
+
 # Determinants 行列式
 * 方阵才有行列式，行列式的结果是一个值（可正可负）。
 * 行列式为0的矩阵为奇异矩阵，不可逆（没有乘法逆元）
