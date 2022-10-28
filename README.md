@@ -48,7 +48,7 @@ $$
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/198180685-c8dc73f1-56ab-4be6-91bc-72042a2ceb53.png" width="700">
 </div>
-
+ 
 $$
 \left\{\begin{array}{l}
 x^{\prime}=|O P| \cdot \cos (\alpha+\beta)=|O P| \cdot(\cos \alpha \cdot \cos \beta-\sin \alpha \cdot \sin \beta)=x \cdot \cos \beta-y \cdot \sin \beta \\
@@ -81,6 +81,8 @@ $$
 <img src="https://user-images.githubusercontent.com/111955215/198438426-b29c9a2c-9cac-4a87-9be3-ac38d00afeb3.png" width="700">
 </div>
 
+**可以看到, 只要不是满秩矩阵, 矩阵运算总有维度损失**
+
 ### 一些性质
 * 满秩矩阵的复合_满秩矩阵P与非满秩矩阵A的乘积矩阵PA的秩为A的秩:  $\operatorname{rank}(P A)=\operatorname{rank}(A)$
 * 普通矩阵的复合_小于等于两个复合矩阵的最小值: $\operatorname{rank}(A B) \leq \min (\operatorname{rank}(A), \operatorname{rank}(B))$
@@ -88,6 +90,42 @@ $$
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/198439710-c215ffb6-1728-4652-b630-d22a0d9c630a.png" width="700">
 </div>
+
+### 秩零度化定理
+映射前的维度 $=$ 映射后的维度 $+$ 被压缩到零点的维度
+
+在下面这个例子中， $\left(\begin{array}{c}x_1 \\ x_2 \\ \vdots \\ x_n\end{array}\right)$ 代表n维空间中的任意一点，因此其秩为 $n$ 
+
+$$
+\left(\begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1 n} \\
+a_{21} & a_{22} & \ldots & a_{2 n} \\
+\vdots & \vdots & \cdots & \vdots \\
+a_{m 1} & a_{m 2} & \cdots & a_{m n}
+\end{array}\right)\left(\begin{array}{c}
+x_1 \\
+x_2 \\
+\vdots \\
+x_n
+\end{array}\right)=x_1\left(\begin{array}{c}
+a_{11} \\
+a_{21} \\
+\vdots \\
+a_{m 1}
+\end{array}\right)+x_2\left(\begin{array}{c}
+a_{12} \\
+a_{22} \\
+\vdots \\
+a_{m 2}
+\end{array}\right)+\cdots+x_n\left(\begin{array}{c}
+a_{1 n} \\
+a_{2 n} \\
+\vdots \\
+a_{m n}
+\end{array}\right)
+$$
+
+经过线性变换后的矩阵的秩为 $\operatorname{rank}(A)$ ,而压缩到零空间的秩（即损失的秩）为 $\operatorname{Null}(A)$
 
 # Determinants 行列式
 * 方阵才有行列式，行列式的结果是一个值（可正可负）。
