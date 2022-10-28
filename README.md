@@ -77,6 +77,18 @@ $$
 <img src="https://user-images.githubusercontent.com/111955215/198437930-aaa1b564-2471-4e35-8e5c-5ca3ef18625f.png" width="700">
 </div>
 
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/198438426-b29c9a2c-9cac-4a87-9be3-ac38d00afeb3.png" width="700">
+</div>
+
+### 一些性质
+* 满秩矩阵的复合_满秩矩阵P与非满秩矩阵A的乘积矩阵PA的秩为A的秩： $\operatorname{rank}(P A)=\operatorname{rank}(A)$
+* 普通矩阵的复合_小于等于两个复合矩阵的最小值：$\operatorname{rank}(A B) \leq \min (\operatorname{rank}(A), \operatorname{rank}(B))$
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/198439710-c215ffb6-1728-4652-b630-d22a0d9c630a.png" width="700">
+</div>
+
 # Determinants 行列式
 * 方阵才有行列式，行列式的结果是一个值（可正可负）。
 * 行列式为0的矩阵为奇异矩阵，不可逆（没有乘法逆元）
