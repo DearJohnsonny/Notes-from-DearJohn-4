@@ -82,8 +82,8 @@ $$
 </div>
 
 ### 一些性质
-* 满秩矩阵的复合_满秩矩阵P与非满秩矩阵A的乘积矩阵PA的秩为A的秩： $\operatorname{rank}(P A)=\operatorname{rank}(A)$
-* 普通矩阵的复合_小于等于两个复合矩阵的最小值：$\operatorname{rank}(A B) \leq \min (\operatorname{rank}(A), \operatorname{rank}(B))$
+* 满秩矩阵的复合_满秩矩阵P与非满秩矩阵A的乘积矩阵PA的秩为A的秩:  $\operatorname{rank}(P A)=\operatorname{rank}(A)$
+* 普通矩阵的复合_小于等于两个复合矩阵的最小值: $\operatorname{rank}(A B) \leq \min (\operatorname{rank}(A), \operatorname{rank}(B))$
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/111955215/198439710-c215ffb6-1728-4652-b630-d22a0d9c630a.png" width="700">
