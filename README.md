@@ -18,6 +18,17 @@
 </div>
 
 # 杂谈
+## 欧几里得空间
+何要引入欧氏空间：在线性空间中，向量之间的基本运算为线性运算，其具体模型为几何空间，但几何空间的度量性质 (如长度、夹角) 等在一般线性空间中没有涉及。然而在解析几何中，向量的长度，夹角等度量性质通过内积反映都可以得出:
+
+长度: $|\alpha|=\sqrt{(\alpha, \alpha)}$
+夹角 $<\alpha, \beta>: \cos <\alpha, \beta>=\frac{\alpha \cdot \beta}{|\alpha| \cdot|\beta|}$
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/111955215/198831746-7fa525df-923e-405a-aa1c-b17241c311cb.png" width="900">
+</div>
+
+**总结：欧几里得空间 = 向量空间 + 长度和角度**
 ## 旋转矩阵 
 旋转矩阵（Rotation Matrix):是在乘以一个向量的时候有改变向量的方向但不改变大小的效果并保持了手性的矩阵。
 
