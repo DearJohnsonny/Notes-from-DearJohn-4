@@ -330,6 +330,13 @@ The symmetric factorization of a symmetric matrix is $S=L D L^{\mathrm{T}}$.
 
 # Spaces of Vectors 
 
+定义：设 $\mathcal{V}$ 为一向量组, 如果 $\mathcal{V}$ 非空, 且 $\mathcal{V}$ 对于向量的加法及数乘两种运算封闭, 那么就称 $\mathcal{V}$ 为向量空间。
+所谓封闭, 是指在 $\mathcal{V}$ 中向量进行数乘和加減, 其结果依然在 $\mathcal{V}$ 中, 即:
+- 若 $\boldsymbol{a} \in \mathcal{V}, \boldsymbol{b} \in \mathcal{V}$, 则 $\boldsymbol{a}+\boldsymbol{b} \in \mathcal{V}$ 。
+- 若 $\boldsymbol{a} \in \mathcal{V}, k \in \mathbb{R}$, 则 $k \boldsymbol{a} \in \mathcal{V}$ 。
+
+![image](https://user-images.githubusercontent.com/111955215/198831269-870681ee-92d4-489c-8e2e-88a607ac37e5.png)
+
 M The vector space of all real 2 by 2 matrices.
 
 F The vector space of all real functions $f(x)$.
